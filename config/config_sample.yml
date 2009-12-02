@@ -1,0 +1,4 @@
+activemq_server:
+  protocol: 'tcp'
+  host: '127.0.0.1'
+  port: '61613'
