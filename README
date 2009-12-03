@@ -1,0 +1,29 @@
+= sfActivemqPlugin plugin =
+
+The `sfActivemqPlugin` will help you managing Activemq connections and queues using.
+
+== Installation ==
+
+To install the plugin for a symfony project, the usual process is to use the
+symfony command line.
+
+With symfony 1.0, use:
+
+{{{
+$ symfony plugin-install http://plugins.symfony-project.com/sfActivemqPlugin
+}}}
+
+With symfony 1.1/1.2, use:
+
+{{{
+$ symfony plugin:install sfActivemqPlugin
+}}}
+
+Clear the cache to enable the autoloading to find the new classes:
+{{{
+$ php symfony cc
+}}}
+
+You're done.
+
+Special thanks: Fabien POTENCIER - I will be creating my own readme soon adding information about the usage of the plugin. 
