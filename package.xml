@@ -13,8 +13,8 @@
  <date>2009-12-03</date>
  <time>15:54:35</time>
  <version>
-  <release>1.0.0</release>
-  <api>1.0.0</api>
+  <release>1.0.1</release>
+  <api>1.0.1</api>
  </version>
  <stability>
   <release>stable</release>
@@ -55,8 +55,31 @@
    <pearinstaller>
     <min>1.4.1</min>
    </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.0.0</min>
+    <max>1.1.10</max>
+   </package>
   </required>
  </dependencies>
  <phprelease />
- <changelog />
+ <changelog>
+  <release>
+    <version>
+      <release>1.0.1</release>
+      <api>1.0.1</api>
+    </version>
+    <stability>
+     <release>stable</release>
+     <api>stable</api>
+    </stability>
+    <license uri="http://www.symfony-project.org/license">MIT license</license>
+    <date>2009-12-03</date>
+    <license>MIT</license>
+    <notes>
+      *Activemq Plugin main connection class
+    </notes>
+  </release>
+ </changelog>
 </package>
