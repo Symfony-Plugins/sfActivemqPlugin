@@ -28,7 +28,7 @@ class ActivemqConnection {
     function readMessage($ack=true) {
         if($queue_item = $this->connection->readFrame()) {
             $this->last_message = unserialize($queue_item->body);
-            $ack && $this->connection->ack($msg);
+            $ack && $this->connection->ack($this->last_message);
             return $this->last_message;
         }
         return false;
